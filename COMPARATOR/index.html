@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Comparator App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-500  flex items-center font-bold justify-center flex-col mt-100px ">
+    <div class="bg-white p-12 mt-64 text-center rounded-lg border ">
+         <div>
+         <h1 class="bg-red-500 rounded-lg font-bold mb-4">Number Comparator App</h1>
+         </div>
+         <div class="flex flex-col gap-4">
+            <input type="number1" id="compareNumber1" class=" border p-2 rounded"  placeholder="enter number" value="0">
+            <input type="number2" id="compareNumber2" placeholder="enter number" class="border p-2 rounded border" value="0">
+         </div>
+         <div>
+            <button id="compareButton" class="bg-red-300 hover:bg-red-900 border p-1 rounded-lg mt-2">Compare</button>
+            <button id="resetButton" class="bg-red-300 hover:bg-red-900 p-1 border rounded-lg">Reset</button>
+         </div>
+         <div id="result" class="bg-blue-900 font-bold mt-2"></div>
+         <script src="/COMPARATOR/com-parator.js"></script>
+
+
+
+    </div>
+    
+</body>
+</html>
